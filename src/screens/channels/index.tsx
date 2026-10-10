@@ -215,6 +215,7 @@ const ChannelHome = () => {
                             ?.replace(/<[^>]*>?/gm, '')
                             .replace(/&nbsp;/g, ' ')
                             .replace(/&amp;/g, '&')
+                            .replace(/&nbsp;/g, ' ')
                             .replace(/&lt;/g, '<')
                             .replace(/&gt;/g, '>') || 'Start chatting'}
                         </AppText>
